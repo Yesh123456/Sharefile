@@ -1,25 +1,17 @@
 # FileShare
 
-Video tutorial for the app is available on YT: https://youtu.be/hqZzzsNepjQ
-
 This app is for users to easily share files with each other.
 
 <h2>Features:</h2>
-
-<h4>Part 1:</h4>
-<ol>
+<ul>
     <li>A user can login.</li>
     <li>User can upload files.</li>
-    <li>User can view his/her uploaded files.</li>
-</ol>
-
-<h4>Part 2:</h4>
-<ol>
-     <li>It is mobile responsive.</li>
-     <li>User can search and view profile of other users.</li>
-     <li>They can share their uploaded files with any of those users.</li>
-     <li>Users can see the shared files by other users also in uploaded files.</li>
-</ol>
+    <li>User can view his/her uploaded files.</li>     
+    <li>It is mobile responsive.</li>
+    <li>User can search and view profile of other users.</li>
+    <li>They can share their uploaded files with any of those users.</li>
+    <li>Users can see the shared files by other users also in uploaded files.</li>
+</ul>
 
 <h4>Additional Features:</h4>
 <ol>
@@ -36,19 +28,21 @@ This app is for users to easily share files with each other.
     <li>JavaScript</li>
 </ul>
     
-<h2>Additional Python Modules Required:</h2>
+<h2>Install this modules before running on your local:</h2>
 <ul>
     <li>Django</li>
     <li>django-crispy-forms</li>
     <li>Pillow</li>
 </ul>
-  
-<h2>Note :</h2>
 
-<b>The Secret_Key required for the execution and debugging of project has not been removed from the project code. So it can be used without generating a new one.</b>
-
-<h2>Usage :</h2>
-
+<h2>Steps:</h2>
+    Downlaod and unizp this folder
+    In your terminal open this directory
+    This is to create your environment
+    Install independently requirements.txt modules or directly run it.
+    
+    source my_env/bin/activate
+    
     python django_web_app/manage.py makemigrations
 
     python django_web_app/manage.py migrate
@@ -57,10 +51,12 @@ This app is for users to easily share files with each other.
     
    In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/
 
+   
 # Screenshots : 
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_14_36.png" height="400" width="800">
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_14_51.png" height="400" width="800">
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_14_44.png" height="400" width="800">
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_15_47.png" height="400" width="800">
-<img src="Screenshots/Django WebApp - Google Chrome 04-12-2019 13_41_50.png" height="400" width="800">
-<img src="Screenshots/Django WebApp - Google Chrome 03-12-2019 20_48_45.png" height="400" width="800">
+<img src="Screenshot/screenshot_1.png" height="400" width="800">
+<img src="Screenshot/screenshot_2.png" height="400" width="800">
+<img src="Screenshot/screenshot_3.png" height="400" width="800">
+<img src="Screenshot/screenshot_4.png" height="400" width="800">
+<img src="Screenshot/screenshot_5.png" height="400" width="800">
+<img src="Screenshot/screenshot_6.png" height="400" width="800">
+<img src="Screenshot/screenshot_7.png" height="400" width="800">
