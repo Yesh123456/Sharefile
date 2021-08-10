@@ -1,62 +1,74 @@
-# FileShare
 
-This app is for users to easily share files with each other.
+# Share File
 
-<h2>Features:</h2>
-<ul>
-    <li>A user can login.</li>
-    <li>User can upload files.</li>
-    <li>User can view his/her uploaded files.</li>     
-    <li>It is mobile responsive.</li>
-    <li>User can search and view profile of other users.</li>
-    <li>They can share their uploaded files with any of those users.</li>
-    <li>Users can see the shared files by other users also in uploaded files.</li>
-</ul>
+It is web app where users can share file on a portal.
 
-<h4>Additional Features:</h4>
-<ol>
-    <li>In users profile user can set his/her profile picture.</li>
-    <li>Users can download other users' uploaded files.</li>
-    <li>The user can upload any type of files such as images, videos, text files and also different types of programs like python code, java code, etc.</li>
-</ol>
-    
-<h2>Technologies Used:</h2>
-<ul>
-    <li>Python</li>
-    <li>Django</li>
-    <li>Bootstrap</li>
-    <li>JavaScript</li>
-</ul>
-    
-<h2>Install this modules before running on your local:</h2>
-<ul>
-    <li>Django</li>
-    <li>django-crispy-forms</li>
-    <li>Pillow</li>
-</ul>
+## Installation
 
-<h2>Steps:</h2>
-    Downlaod and unizp this folder
-    In your terminal open this directory
-    This is to create your environment
-    Install independently requirements.txt modules or directly run it.
-    
-    source my_env/bin/activate
-    
-    python django_web_app/manage.py makemigrations
+Install my-project as zip or clone.
 
-    python django_web_app/manage.py migrate
+```bash
+    git clone https://github.com/Yesh123456/Sharefile.git
+```
+Remove my_env folder before working on projet.
 
-    python django_web_app/manage.py runserver
-    
-   In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/
+Create VirtualEnv.(For Ubuntu)
 
-   
-# Screenshots : 
-<img src="Screenshot/screenshot_1.png" height="400" width="800">
-<img src="Screenshot/screenshot_2.png" height="400" width="800">
-<img src="Screenshot/screenshot_3.png" height="400" width="800">
-<img src="Screenshot/screenshot_4.png" height="400" width="800">
-<img src="Screenshot/screenshot_5.png" height="400" width="800">
-<img src="Screenshot/screenshot_6.png" height="400" width="800">
-<img src="Screenshot/screenshot_7.png" height="400" width="800">
+```bash
+     virtualenv myenv
+     cd myenv
+     source bin/activate
+```
+Run requirements.txt file for different modules.(For Ubuntu)
+
+```bash
+    sudo install -r requirements.txt
+```
+Make migrations before running.
+
+```bash
+    cd django_web_app
+    python manage.py makemigrations
+    python manage.py migrate
+```
+Run your app.
+```bash
+     python manage.py runserver
+```
+If you want to change data from database then create super user.
+
+```bash
+    python manage.py createsuperuser
+```
+
+## Features
+
+- Relevent scheme
+- Live previews
+- Desktop version only
+- Web Application
+
+  
+## Screenshots
+
+![App Screenshot](Screenshot/screenshot_1.png)
+![App Screenshot](Screenshot/screenshot_2.png)
+![App Screenshot](Screenshot/screenshot_3.png)
+![App Screenshot](Screenshot/screenshot_4.png)
+![App Screenshot](Screenshot/screenshot_5.png)
+![App Screenshot](Screenshot/screenshot_6.png)
+![App Screenshot](Screenshot/screenshot_7.png)
+## Feedback
+
+If you have any feedback, please reach out to us at isco30427@gmail.com
+
+  
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+  
